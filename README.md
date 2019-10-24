@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+2.3.2. Dessine-moi une BDD
+Allez, feuille / tableau / ERD en main et hop! => Imagine les models qu'il faut pour cette app, les relations possibles, puis évidemment les attributs de chaque model. Toute l'architecture de la BDD doit tenir sur un dessin que vous allez faire en équipe. C'est un excellent entraînement au projet final 😇
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Une fois que c'est fait, on va te guider et tu vas pouvoir comparer ton schéma à notre pas à pas.
