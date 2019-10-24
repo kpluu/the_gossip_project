@@ -12,3 +12,7 @@ User.destroy_all
   c = City.create(name: Faker::Nation.capital_city, zip_code: Faker::Code.nric)
   u = User.create(first_name: Faker::Name.name, last_name: Faker::Name.last_name, description: Faker::Movie.quote, email: Faker::Internet.email, age: Faker::Number.between(from: 20, to: 50), city_id: index+1)
 end
+
+20.times do |index|
+  g = Gossip.create(title: Faker::Movie.quote, content: Faker::Verb.ing_form, user_id: rand(1..10))
+end
